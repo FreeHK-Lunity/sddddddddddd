@@ -1,0 +1,27 @@
+{
+    "name": "SDDDDDDDDDDD",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "CUHK-JC-iCar": "github:hitkuangye/CUHK_JC_iCar_V2#2882007d978eb05576ee604a805cb542e5611e8b"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "pyprj"
+}
