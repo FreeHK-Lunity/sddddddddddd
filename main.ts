@@ -34,18 +34,16 @@ basic.forever(function on_forever() {
     
     if (xeee == 1) {
         basic.showIcon(IconNames.Scissors)
-    }
-    
-    if (xeee == 2) {
+    } else if (xeee == 2) {
         Turn_right()
         move_forward()
         basic.showIcon(IconNames.Heart)
-    }
-    
-    if (xeee == 3) {
+    } else if (xeee == 3) {
         Turn_left()
         move_forward()
         basic.showIcon(IconNames.Heart)
+    } else {
+        
     }
     
 })

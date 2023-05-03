@@ -27,12 +27,14 @@ def on_forever():
         pass
     if xeee == 1:
         basic.show_icon(IconNames.SCISSORS)
-    if xeee == 2:
+    elif xeee == 2:
         Turn_right()
         move_forward()
         basic.show_icon(IconNames.HEART)
-    if xeee == 3:
+    elif xeee == 3:
         Turn_left()
         move_forward()
         basic.show_icon(IconNames.HEART)
+    else:
+        pass
 basic.forever(on_forever)
