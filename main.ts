@@ -12,7 +12,7 @@ let husk_appear3 = false
 let husk_appear2 = false
 let husk_appear = false
 huskylens.initI2c()
-huskylens.initMode(protocolAlgorithm.ALGORITHM_OBJECT_RECOGNITION)
+huskylens.initMode(protocolAlgorithm.OBJECTCLASSIFICATION)
 basic.forever(function () {
     husk_appear = huskylens.isAppear(1, HUSKYLENSResultType_t.HUSKYLENSResultBlock)
     husk_appear2 = huskylens.isAppear(2, HUSKYLENSResultType_t.HUSKYLENSResultBlock)
